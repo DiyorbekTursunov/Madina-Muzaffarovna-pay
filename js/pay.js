@@ -71,7 +71,7 @@ payment__price.forEach((priceElement) => {
     priceElement.innerHTML = "1 497 000 so'm";
   } else if (localData.type === "vip") {
     priceElement.innerHTML = "3 997 000 so'm";
-  } {
+  } else {
     priceElement.innerHTML = "9 997 000 so'm";
   }
 });
@@ -114,7 +114,7 @@ async function updatePriceVisa() {
     priceUZS = 1497000;
   } else if (localData.type === "vip") {
     priceUZS = 3997000;
-  } {
+  } else {
     priceUZS = 9997000;
   }
 
